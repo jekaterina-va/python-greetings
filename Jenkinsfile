@@ -29,7 +29,7 @@ pipeline {
         }
         stage('deploy-to-prod') {
             steps {
-                deploy("prd")
+                deploy("prod")
             }
         }
         stage('tests-on-prod') {
